@@ -8,7 +8,7 @@ Faren.innerHTML = Answer
 console.log(Answer)
 }
 
-function 3 {
+function FarenToCel() {
     let Farenh = +document.getElementById("Farenheit").value
     let Celcs = document.getElementById("Cels")
     
