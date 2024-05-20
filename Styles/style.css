@@ -8,6 +8,32 @@ font-family:arial;
 background-color:skyblue;
 }
 
+label {
+
+
+color:white;
+
+}
+
+
 h1 {
    color:white;
+}
+
+#FarenCel {
+
+background-color:white;
+padding:0.4rem;
+}
+#InpStyle {
+
+    background-color:white;
+
+}
+
+#CelFaren {
+
+    background-color:white;
+    padding:0.4rem;
+
 }
