@@ -4,7 +4,7 @@ let Faren = document.getElementById("Faren")
 
 let Answer = Celsius * 1.8 + 32
 
-Faren.innerHTML = Answer
+Faren.innerHTML = Answer.toFixed(2)
 console.log(Answer)
 }
 
@@ -12,8 +12,8 @@ function FarenToCel() {
     let Farenh = +document.getElementById("Farenheit").value
     let Celcs = document.getElementById("Cels")
     
-    let AnswerFaren = (Farenh - 32) * 5/9
+    let AnswerFaren = (Farenh - 32) * 5/9 
     
-    Celcs.innerHTML = AnswerFaren
+    Celcs.innerHTML = AnswerFaren.toFixed(2)
     console.log(AnswerFaren)
     }
