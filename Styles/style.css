@@ -5,19 +5,29 @@ margin:0;
 padding: 0;
 box-sizing:border-box;
 font-family:arial;
-background-color:skyblue;
+}
+
+body {
+
+
+    background: rgb(207,236,247);
+    background-repeat:no-repeat;
+    background: linear-gradient(0deg, rgba(207,236,247,1) 0%, rgba(160,217,239,1) 56%, rgba(32,167,219,1) 70%, rgba(28,150,197,1) 99%);
+   background-attachment:fixed;
 }
 
 label {
 
 
-color:white;
+color:rgb(0, 0, 0);
+
 
 }
 
 
 h1 {
    color:white;
+   -webkit-text-stroke: 0.9px black;
 }
 
 
@@ -28,4 +38,50 @@ h1 {
 
 }
 
+#Celc {
 
+    background-color:white;
+
+
+}
+#Farenheit {
+
+    background-color:white;
+
+
+}
+
+#FarenCel {
+
+background-color:white;
+padding:0.2rem;
+
+&:hover {
+
+box-shadow:2px 2px black;
+
+}
+
+}
+
+#CelFaren {
+
+    background-color:white;
+    padding:0.2rem;
+
+    &:hover {
+        box-shadow:2px 2px black;
+
+    }
+}
+.Bottom {
+
+    left:0;
+position:fixed;
+bottom:0;
+background-color:darkgreen;
+height:3rem;
+width:100%;
+background: rgb(19,109,21);
+background: linear-gradient(90deg, rgba(19,109,21,1) 0%, rgba(17,124,19,1) 56%, rgba(19,133,16,1) 70%, rgba(38,139,7,1) 99%);
+}
