@@ -16,4 +16,5 @@ function FarenToCel() {
     
     Celcs.innerHTML = AnswerFaren.toFixed(2)
     console.log(AnswerFaren)
+    
     }
